@@ -384,7 +384,7 @@ class MessageChatActivity : AppCompatActivity()
                     Log.i("mChatList", (mChatList as ArrayList<Chat>).size.toString())
                     chatsAdapter= ChatsAdapter(this@MessageChatActivity, (mChatList as ArrayList<Chat>),  receiverImageUrl!!)
                     recyclerViewChats.adapter=chatsAdapter
-                    recyclerViewChats.smoothScrollToPosition((mChatList as ArrayList<Chat>).size-1);        //Automatically scrolls Recycler View to the bottommost or the recentmost chat
+                    //recyclerViewChats.smoothScrollToPosition((mChatList as ArrayList<Chat>).size-1);        //Automatically scrolls Recycler View to the bottommost or the recentmost chat
                 }
             }
 
