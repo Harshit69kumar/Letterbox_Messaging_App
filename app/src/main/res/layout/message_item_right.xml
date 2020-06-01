@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="9dp"
+    android:layout_margin="5dp">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileImageRight"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/profile"
+            android:visibility="gone">
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+
+        <TextView
+            android:id="@+id/showTextMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            android:text="Test Message"
+            android:gravity="right"
+            android:padding="8dp"
+            android:background="@drawable/background_right"
+            android:textColor="@android:color/white"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true">
+        </TextView>
+
+
+        <ImageView
+            android:id="@+id/rightImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="6dp"
+            android:visibility="visible">
+        </ImageView>
+
+
+        <TextView
+            android:id="@+id/currentTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/showTextMessage"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Message sent at: 02:05-28/05/20"
+            android:layout_alignParentRight="true"
+            android:textSize="10sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textSeen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seen"
+            android:layout_below="@+id/currentTime"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:textSize="10sp">
+        </TextView>
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

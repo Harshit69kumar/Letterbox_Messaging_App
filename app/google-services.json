@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1034266132269",
+    "firebase_url": "https://letterbox-7dd3e.firebaseio.com",
+    "project_id": "letterbox-7dd3e",
+    "storage_bucket": "letterbox-7dd3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034266132269:android:e5afe1f175e4153649dda4",
+        "android_client_info": {
+          "package_name": "com.example.letterbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034266132269-b9kjtqh22pqg84lhiia6uf41g4gllvql.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBo5_217p6fC2MM23iNDT3RgtcS28RUIGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034266132269-b9kjtqh22pqg84lhiia6uf41g4gllvql.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,2 @@
+rootProject.name='Letterbox'
+include ':app'
